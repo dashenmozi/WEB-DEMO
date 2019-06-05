@@ -1,0 +1,81 @@
+#logo{
+  margin-top:100px;
+  width: 280px;
+  height:100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+#serch-box{
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  height: 150px;
+  width:700px;
+}
+#input-box{
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  outline: none;
+  box-shadow: 1px 1px 1px 1px rgb(160, 160, 160);
+  height: 30px;
+  width:580px;
+  font-family: 'Microsoft YaHei UI', arial, sans-serif;
+  font-size: 18px;
+  float: left;
+}
+button{
+  float: left;
+  margin-top: 30px;
+  margin-left:0px;
+  height:38.5px;
+  width:100px;
+  background: #fff;
+  outline:none;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px 0px 1px rgb(160,160,160);
+  cursor:pointer;
+}
+#serch-body{
+  margin-top:30px;
+  margin-bottom: 100px;
+  height:480px;
+  width:840px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left: 30px;
+  padding-top: 10px;
+  border:1px solid rgb(210,210,210);
+  background-color:#fff;
+}
+.nav-items{
+  float:left;
+  width:160px;
+  height:40px;
+}
+.nav-items:hover{
+  background-color: #d7e5f1;
+}
+.nav-items-img{
+  float:left;
+  width:16px;
+  height:16px;
+  margin-left:15px;
+  margin-top:15px;
+}
+.nav-items-name{
+  float:left;
+  width:16px;
+  margin-left:3px;
+  margin-top:13px;
+  font-family: 'Microsoft YaHei UI', arial, sans-serif;
+  color: black;
+}
+.nav-panel-line{
+  clear: both;
+  width: 810px;
+  height:1px;
+  background-color: #d9e9f4;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>serchpage</title>
+    <link rel="stylesheet" href="serchpagecss.css">
+    <script>
+      function google_search() {
+        var search_txt = document.getElementById("input-box").value;
+        if (search_txt == "") {
+          alert("search text is empty ! ");
+          return false;
+        }
+        var search_url = "https://www.google.com/search?newwindow=1&hl=zh-CN&q=" + search_txt;
+        window.open(search_url);
+      }
+    </script>
+</head>
+<body>
+     <div id="logo">
+       <img src="images/Logo.png" alt="WAiTTING">
+     </div>
+     <div id="serch-box">
+         <input id="input-box">
+         <button onclick="google_search()">Search</button>
+     </div>
+     <div  id="serch-body">
+       <a class="nav-items"href="https://www.google.com/"target="_blank">
+         <img src="images/Google.png" class="nav-items-img">
+         <div class="nav-items-name">Google</div>
+       </a>
+       <a class="nav-items"href="https://www.baidu.com/" target="_blank">
+         <img src="images/Baidu.png" class="nav-items-img">
+         <div class="nav-items-name">Baidu</div>
+       </a>
+       <a class="nav-items"href="https://zh.wikipedia.org/" target="_blank">
+         <img src="images/Wikipedia.png" class="nav-items-img">
+         <div class="nav-items-name">Wikipedia</div>
+       </a>
+       <a class="nav-items"href="http://dict.youdao.com/" target="_blank">
+         <img src="images/Dictionary.png" class="nav-items-img">
+         <div class="nav-items-name">Dictionary</div>
+       </a>
+       <a class="nav-items"href="https://tojohnonly.github.io/" target="_blank">
+         <img src="images/Blog.png" class="nav-items-img">
+         <div class="nav-items-name">Blog</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="http://toutiao.io/" target="_blank">
+         <img src="images/Toutiao.png" class="nav-items-img">
+         <div class="nav-items-name">Toutiao</div>
+       </a>
+       <a class="nav-items"href="http://www.infoq.com/cn/" target="_blank">
+         <img src="images/InfoQ.png" class="nav-items-img">
+         <div class="nav-items-name">InfoQ</div>
+       </a>
+       <a class="nav-items"href="http://blog.csdn.net/tojohnonly" target="_blank">
+         <img src="images/CBlog.png" class="nav-items-img">
+         <div class="nav-items-name">CBlog</div>
+       </a>
+       <a class="nav-items"href="https://news.ycombinator.com/" target="_blank">
+         <img src="images/Hackers.png" class="nav-items-img">
+         <div class="nav-items-name">Hackers</div>
+       </a>
+       <a class="nav-items"href="http://stackoverflow.com/" target="_blank">
+         <img src="images/Stack.png" class="nav-items-img">
+         <div class="nav-items-name">Stack</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="http://www.tmtpost.com/" target="_blank">
+         <img src="images/Tmtpost.png" class="nav-items-img">
+         <div class="nav-items-name">Tmtpost</div>
+       </a>
+       <a class="nav-items"href="https://www.cnbeta.com/" target="_blank">
+         <img src="images/Cnbeta.png" class="nav-items-img">
+         <div class="nav-items-name">Cnbeta</div>
+       </a>
+       <a class="nav-items"href="http://www.leiphone.com/" target="_blank">
+         <img src="images/Leiphone.png" class="nav-items-img">
+         <div class="nav-items-name">Leiphone</div>
+       </a>
+       <a class="nav-items"href="http://www.huxiu.com/" target="_blank">
+         <img src="images/Huxiu.png" class="nav-items-img">
+         <div class="nav-items-name">Huxiu</div>
+       </a>
+       <a class="nav-items"href="http://www.ifanr.com/" target="_blank">
+         <img src="images/iFanr.png" class="nav-items-img">
+         <div class="nav-items-name">iFanr</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="https://github.com/" target="_blank">
+         <img src="images/Github.png" class="nav-items-img">
+         <div class="nav-items-name">Github</div>
+       </a>
+       <a class="nav-items" href="http://www.geekpark.net/" target="_blank">
+         <img src="images/Geekpark.png" class="nav-items-img">
+         <div class="nav-items-name">Geekpark</div>
+       </a>
+       <a class="nav-items"href="https://cn.engadget.com/" target="_blank">
+         <img src="images/Engadget.png" class="nav-items-img">
+         <div class="nav-items-name">Engadget</div>
+       </a>
+       <a class="nav-items"href="https://www.v2ex.com/" target="_blank">
+         <img src="images/V2EX.png" class="nav-items-img">
+         <div class="nav-items-name">V2EX</div>
+       </a>
+       <a class="nav-items"href="http://www.ithome.com/" target="_blank">
+         <img src="images/IThome.png" class="nav-items-img">
+         <div class="nav-items-name">IThome</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="http://map.baidu.com/" target="_blank">
+         <img src="images/Map.png" class="nav-items-img">
+         <div class="nav-items-name">Map</div>
+       </a>
+       <a class="nav-items"href="https://drive.google.com/drive/my-drive" target="_blank">
+         <img src="images/Drive.png" class="nav-items-img">
+         <div class="nav-items-name">Drive</div>
+       </a>
+       <a class="nav-items"href="https://outlook.live.com/" target="_blank">
+         <img src="images/Outlook.png" class="nav-items-img">
+         <div class="nav-items-name">Outlook</div>
+       </a>
+       <a class="nav-items"href="http://mail.163.com/" target="_blank">
+         <img src="images/163.png" class="nav-items-img">
+         <div class="nav-items-name">163</div>
+       </a>
+       <a class="nav-items"href="http://pan.baidu.com/disk/home" target="_blank">
+         <img src="images/BaiDisk.png" class="nav-items-img">
+         <div class="nav-items-name">BaiDisk</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="https://www.youtube.com/" target="_blank">
+         <img src="images/Youtube.png" class="nav-items-img">
+         <div class="nav-items-name">Youtube</div>
+       </a>
+       <a class="nav-items"href="https://www.twitch.tv/" target="_blank">
+         <img src="images/Twitch.png" class="nav-items-img">
+         <div class="nav-items-name">Twitch</div>
+       </a>
+       <a class="nav-items"href="http://www.bilibili.com/" target="_blank">
+         <img src="images/Bilibili.png" class="nav-items-img">
+         <div class="nav-items-name">Bilibili</div>
+       </a>
+       <a class="nav-items"href="https://vimeo.com/" target="_blank">
+         <img src="images/Vimeo.png" class="nav-items-img">
+         <div class="nav-items-name">Vimeo</div>
+       </a>
+       <a class="nav-items"href="https://www.douyu.com/" target="_blank">
+         <img src="images/Douyu.png" class="nav-items-img">
+         <div class="nav-items-name">Douyu</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="http://www.nfcmag.com/" target="_blank">
+         <img src="images/SRs.png" class="nav-items-img">
+         <div class="nav-items-name">SRs</div>
+       </a>
+       <a class="nav-items"href="http://www.bbc.com/zhongwen/simp" target="_blank">
+         <img src="images/BBC.png" class="nav-items-img">
+         <div class="nav-items-name">BBC</div>
+       </a>
+       <a class="nav-items"href="https://www.washingtonpost.com/" target="_blank">
+         <img src="images/WashPost.png" class="nav-items-img">
+         <div class="nav-items-name">WashPost</div>
+       </a>
+       <a class="nav-items"href="http://www.voachinese.com/" target="_blank">
+         <img src="images/VOA.png" class="nav-items-img">
+         <div class="nav-items-name">VOA</div>
+       </a>
+       <a class="nav-items" href="http://www.people.com.cn/" target="_blank">
+         <img src="images/People.png" class="nav-items-img">
+         <div class="nav-items-name">People</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="http://www.zhihu.com/" target="_blank">
+         <img src="images/Zhihu.png" class="nav-items-img">
+         <div class="nav-items-name">Zhihu</div>
+       </a>
+       <a class="nav-items"href="https://soccer.hupu.com/" target="_blank">
+         <img src="images/Hupu.png" class="nav-items-img">
+         <div class="nav-items-name">Hupu</div>
+       </a>
+       <a class="nav-items" href="https://www.facebook.com/" target="_blank">
+         <img src="images/Facebook.png" class="nav-items-img">
+         <div class="nav-items-name">Facebook</div>
+       </a>
+       <a class="nav-items"href="https://twitter.com/" target="_blank">
+         <img src="images/Twitter.png" class="nav-items-img">
+         <div class="nav-items-name">Twitter</div>
+       </a>
+       <a class="nav-items"href="https://twitter.com/" target="_blank">
+         <img src="images/Douban.png" class="nav-items-img">
+         <div class="nav-items-name">Douban</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="http://sports.qq.com/" target="_blank">
+         <img src="images/Sports.png" class="nav-items-img">
+         <div class="nav-items-name">Sports</div>
+       </a>
+       <a class="nav-items"href="https://www.apple.com/cn/" target="_blank">
+         <img src="images/Apple.png" class="nav-items-img">
+         <div class="nav-items-name">Apple</div>
+       </a>
+       <a class="nav-items" href="http://weibo.com/tojohnonly/home" target="_blank">
+         <img src="images/Weibo.png" class="nav-items-img">
+         <div class="nav-items-name">Weibo</div>
+       </a>
+       <a class="nav-items"href="https://www.zhibo8.cc/" target="_blank">
+         <img src="images/ZhiBo8.png" class="nav-items-img">
+         <div class="nav-items-name">ZhiBo8</div>
+       </a>
+       <a class="nav-items"href="https://leqiuba.com/" target="_blank">
+         <img src="images/LeQiu.png" class="nav-items-img">
+         <div class="nav-items-name">LeQiu</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="https://www.taobao.com/" target="_blank">
+         <img src="images/Taobao.png" class="nav-items-img">
+         <div class="nav-items-name">Taobao</div>
+       </a>
+       <a class="nav-items"href="http://www.jd.com/" target="_blank">
+         <img src="images/JD.png" class="nav-items-img">
+         <div class="nav-items-name">JD</div>
+       </a>
+       <a class="nav-items"href="https://www.amazon.cn/" target="_blank">
+         <img src="images/Amazon.png" class="nav-items-img">
+         <div class="nav-items-name">Amazon</div>
+       </a>
+       <a class="nav-items"href="https://www.meituan.com" target="_blank">
+         <img src="images/MeiTuan.png" class="nav-items-img">
+         <div class="nav-items-name">MeiTuan</div>
+       </a>
+       <a class="nav-items"href="https://www.starbucks.com.cn/" target="_blank">
+         <img src="images/Starbucks.png" class="nav-items-img">
+         <div class="nav-items-name">Starbucks</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+       <!---------------------------------------------------------------------------------------------------->
+       <a class="nav-items"href="https://bandcamp.com/" target="_blank">
+         <img src="images/Bandcamp.png" class="nav-items-img">
+         <div class="nav-items-name">Bandcamp</div>
+       </a>
+       <a class="nav-items" href="https://www.nosetime.com/" target="_blank">
+         <img src="images/NoseTime.png" class="nav-items-img">
+         <div class="nav-items-name">NoseTime</div>
+       </a>
+       <a class="nav-items"href="https://store.playstation.com/zh-hans-hk/home" target="_blank">
+         <img src="images/PlayStation.png" class="nav-items-img">
+         <div class="nav-items-name">PlayStation</div>
+       </a>
+       <a class="nav-items"href="http://store.steampowered.com/" target="_blank">
+         <img src="images/Steam.png" class="nav-items-img">
+         <div class="nav-items-name">Steam</div>
+       </a>
+       <a class="nav-items"href="http://www.gamersky.com/" target="_blank">
+         <img src="images/Gamersky.png" class="nav-items-img">
+         <div class="nav-items-name">Gamersky</div>
+       </a>
+       <div class="nav-panel-line" ></div>
+     </div>
+</body>
+</html>
